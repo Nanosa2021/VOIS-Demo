@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="101.883837">
+    <testcase classname="CreateAccount" name="The user is able to create an account then login successfully" time="35.172153">
+        <system-out><![CDATA[Given The user has launched the automation Practise application.............passed
+When the user click on Sign in..............................................passed
+And the user create an account with the email nancy.omed@yahoo.com..........passed
+And the email is verified successfully......................................passed
+And the user clicks on create an account....................................passed
+And the user enters the title MR............................................passed
+And the user enters first name Nancy........................................passed
+And the user enters last name Hanna.........................................passed
+And the user enters password 12345..........................................passed
+And the user enters date of birth as 12 and 11 and 1995.....................passed
+And the user enters the address details as Comp1 and Fin Address............passed
+And the user enters city Cairo..............................................passed
+And the user enters state New York..........................................passed
+And the user enters postal code 12345.......................................passed
+And the user enters country United States...................................passed
+And the user enters mobile phone 0123233....................................passed
+And the user assigns an address alias for future reference Add Elias........passed
+And the user clicks on Register.............................................passed
+Then Account is Created Successfully........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="CartCheckOut" name="Cart Checkout scenario" time="66.711684">
+        <system-out><![CDATA[Given The user has launched the automation Practise application.............passed
+When the user click on Sign in..............................................passed
+And the user enters the configured Email Address nancy.omed@yahoo.com.......passed
+And the user enters the configured password 12345...........................passed
+And the user clicks on signIn...............................................passed
+And the user logged in successfully.........................................passed
+And the user selects Blouses Subcategory in Women Category..................passed
+And the user selects the Blouse product.....................................passed
+And the user selects White color and M size.................................passed
+And the user click on add to cart...........................................passed
+And the user proceed to first checkout......................................passed
+And the user proceed to second checkout.....................................passed
+And the user proceed to third checkout......................................passed
+And the user agree to the terms and conditions..............................passed
+And the user proceed to forth checkout......................................passed
+And the user selects payment option bankwire................................passed
+And the user confirms the order.............................................passed
+Then order should be confirmed..............................................passed
+And order is placed on order history page Blouse and White and M and quantity and total price are displayed correctly.passed
+]]></system-out>
+    </testcase>
+</testsuite>
